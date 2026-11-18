@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0d0918;
+  color: #f5ead2;
+  font-family: system-ui, sans-serif;
+}
+#wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0 20px;
+}
+#game {
+  display: block;
+  width: 1240px;
+  max-width: 98vw;
+  height: auto;
+  border: 2px solid #4a3572;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(242, 201, 76, 0.12);
+  cursor: pointer;
+  background: #171029;
+}
+#hint {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #b9a8e0;
+  text-align: center;
+}
